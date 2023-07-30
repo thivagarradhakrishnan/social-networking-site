@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TRACKER</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<style>
+		.error {
+			color: red;
+			margin-top: 4px;
+		}
+	</style>
+	
+</head>
+<body>
+	<script src="valid.js"></script>
+	<div class="heading">
+		<img class="logo" src="img.jpg">
+	</div>
+	<div class="wrapper">
+		<div class="form">
+			<form onsubmit="return redirect()">
+				<h1>Log In</h1>
+				<span>
+					<input type="text" placeholder="Your email" id="email" name="">
+				</span><br>
+				<span>
+					<input type="password" placeholder="Your password" id="password" name="">
+				</span><br>
+				<button class="submit">Log In</button>				
+				<div class="error" id="error"></div>
+			</form>
+		</div>
+	</div>
+	<footer>
+        <h4>Tracker</h4>
+        <line></line>
+        <p>&copy; 2022 Tracker. All rights reserved.</p>
+        <home>Home</home>
+        <about>About Us</about>
+        <contact>Contact Us</contact>
+    </footer>
+</body>
+</html>
